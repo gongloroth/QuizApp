@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Question" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/dim_8dp</item>
+        <item name="android:layout_marginBottom">@dimen/dim_4dp</item>
+        <item name="android:layout_marginLeft">@dimen/dim_8dp</item>
+        <item name="android:layout_marginRight">@dimen/dim_8dp</item>
+        <item name="android:padding">@dimen/dim_8dp</item>
+        <item name="cardBackgroundColor">@color/colorAccent</item>
+        <item name="cardCornerRadius">@dimen/dim_8dp</item>
+        <item name="cardElevation">@dimen/dim_8dp</item>
+    </style>
+
+    <style name="Answer" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/dim_24dp</item>
+        <item name="android:layout_marginLeft">@dimen/dim_8dp</item>
+        <item name="android:layout_marginRight">@dimen/dim_8dp</item>
+        <item name="android:padding">@dimen/dim_8dp</item>
+        <item name="cardBackgroundColor">@color/colorPrimary</item>
+        <item name="cardCornerRadius">@dimen/dim_8dp</item>
+        <item name="cardElevation">@dimen/dim_8dp</item>
+    </style>
+
+    <style name="LinearLayoutQuestion">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/dim_16dp</item>
+    </style>
+
+    <style name="TextViewQuestionLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingBottom">@dimen/dim_8dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
+    </style>
+
+    <style name="TextViewQuestion">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="RadioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/dim_16dp</item>
+    </style>
+
+    <style name="CheckBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/dim_16dp</item>
+    </style>
+
+</resources>

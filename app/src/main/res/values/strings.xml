@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="empty_answers_msg">%s, please choose an answer for the following questions:</string>
+    <string name="empty_answers_msg1">%s, please choose an answer for the following question:</string>
+    <string name="answer_summary">%s, you answered correctly for %d out of %d questions. </string>
+    <string name="message_score_high">You\'re a star!</string>
+    <string name="message_score_medium">You got stellar smarts!</string>
+    <string name="message_score_low">You\'re a dwarf star!</string>
+    <string name="message_all_answers_correct">Congrats, %s! You\'re a space genius!</string>
+    <string name="type_your_name">Type your name</string>
+
+    <string name="question_1_label">Question 1</string>
+    <string name="question_2_label">Question 2</string>
+    <string name="question_3_label">Question 3</string>
+    <string name="question_4_label">Question 4</string>
+    <string name="question_5_label">Question 5</string>
+    <string name="question_6_label">Question 6</string>
+    <string name="question_7_label">Question 7</string>
+    <string name="question_8_label">Question 8</string>
+    <string name="question_9_label">Question 9</string>
+    <string name="question_10_label">Question 10</string>
+
+    <string name="question_1_text">In what 2017 film do we see \"Hugh Jackman\" caring for an ailing \"Patrick Stewart\" at a remote outpost near the Mexican border?</string>
+    <string name="question_2_text">What film from the \"Planet of the Apes\" reboot series was released in July of 2017?</string>
+    <string name="question_3_text">Based on true events, what 2017 film depicts the evacuation of 330,000 Allied troops to Britain during World War II. </string>
+    <string name="question_4_text">What 2017 film is based on an eighteenth-century fairy tale by Jeanne-Marie Leprince de Beaumont? </string>
+    <string name="question_5_text">Harrison Ford reprises his role as \"Rick Deckard\" in what 2017 science fiction film?</string>
+    <string name="question_6_text">In which 2017 movies did "\Tom Cruise"\ appear?</string>
+    <string name="question_7_text">What 2017 film was the final of Bill Paxton\'s career, released shortly after his February 2017 death?</string>
+    <string name="question_8_text">In what 2017 film do we see Charlize Theron (Agent Lorraine Broughton) sent alone into Berlin to retrieve a priceless dossier? </string>
+    <string name="question_9_text">What 2017 movie stars Tom Hiddleston as James Conrad, Samuel L. Jackson as Preston Packard and John Goodman as William \"Bill\" Randa? </string>
+    <string name="question_10_text">Gal Gadot plays the role of Diana Prince in this 2017 American superhero film. Can you name it? </string>
+
+    <string name="q1_a_text">Justice League</string>
+    <string name="q1_b_text">Thor - Ragnarok</string>
+    <string name="q1_c_text">Logan</string>
+    <string name="q2_a_text">Dawn of the Planet of the Apes</string>
+    <string name="q2_b_text">War for the Planet of the Apes</string>
+    <string name="q2_c_text">Rise of the Planet of the Apes</string>
+    <string name="q3_a_text">Battle of Dunkirk</string>
+    <string name="q3_b_text">War Machine</string>
+    <string name="q3_c_text">Battle of the Bulge</string>
+    <string name="q4_a_text">A Ghost Story</string>
+    <string name="q4_b_text">Okja</string>
+    <string name="q4_c_text">Beauty and the Beast</string>
+    <string name="q5_a_text">Alien - Covenant</string>
+    <string name="q5_b_text">Blade Runner 2049</string>
+    <string name="q5_c_text">Death Race 2050</string>
+    <string name="q6_a_text">The Mummy</string>
+    <string name="q6_b_text">Get Out</string>
+    <string name="q6_c_text">American Made</string>
+    <string name="q6_d_text">The Shape of Water</string>
+    <string name="q7_a_text">The Last Scout</string>
+    <string name="q7_b_text">The Discovery</string>
+    <string name="q7_c_text">The Circle</string>
+    <string name="q8_a_text">Marjorie Prime</string>
+    <string name="q8_b_text">Atomic Blonde</string>
+    <string name="q8_c_text">Bright</string>
+    <string name="q9_a_text">Godzilla - Monster Planet</string>
+    <string name="q9_b_text">The Recall</string>
+    <string name="q9_c_text">Kong - Skull Island</string>
+    <string name="q10_text">Wonder Woman</string>
+
+    <string name="q10_hint">Enter the title of the movie here</string>
+
+    <string name="submit_button_text">Submit</string>
+    <string name="send_button_text">Send Result</string>
+
+
+</resources>
