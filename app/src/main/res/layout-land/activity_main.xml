@@ -2,12 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
+    android:background="@color/background"
     android:fillViewport="false"
-    android:orientation="vertical"
-    android:padding="@dimen/dim_8dp"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_8dp"
     tools:context="com.gongloroth.quizapp.MainActivity">
 
     <LinearLayout
@@ -42,26 +42,26 @@
 
             <RadioGroup
                 android:id="@+id/radio_group_q1"
-                android:orientation="vertical"
-                style="@style/RadioGroup">
+                style="@style/RadioGroup"
+                android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/radio_q1_a"
-                    android:text="@string/q1_a_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_a_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q1_b"
-                    android:text="@string/q1_b_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_b_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q1_c"
-                    android:text="@string/q1_c_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_c_text" />
             </RadioGroup>
 
         </android.support.v7.widget.CardView>
@@ -93,26 +93,26 @@
 
             <RadioGroup
                 android:id="@+id/radio_group_q2"
-                android:orientation="vertical"
-                style="@style/RadioGroup">
+                style="@style/RadioGroup"
+                android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/radio_q2_a"
-                    android:text="@string/q2_a_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q2_a_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q2_b"
-                    android:text="@string/q2_b_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q2_b_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q2_c"
-                    android:text="@string/q2_c_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q2_c_text" />
             </RadioGroup>
 
         </android.support.v7.widget.CardView>
@@ -144,26 +144,26 @@
 
             <RadioGroup
                 android:id="@+id/radio_group_q3"
-                android:orientation="vertical"
-                style="@style/RadioGroup">
+                style="@style/RadioGroup"
+                android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/radio_q3_a"
-                    android:text="@string/q3_a_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_a_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q3_b"
-                    android:text="@string/q3_b_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_b_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q3_c"
-                    android:text="@string/q3_c_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_c_text" />
             </RadioGroup>
 
         </android.support.v7.widget.CardView>
@@ -195,26 +195,26 @@
 
             <RadioGroup
                 android:id="@+id/radio_group_q4"
-                android:orientation="vertical"
-                style="@style/RadioGroup">
+                style="@style/RadioGroup"
+                android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/radio_q4_a"
-                    android:text="@string/q4_a_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q4_a_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q4_b"
-                    android:text="@string/q4_b_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q4_b_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q4_c"
-                    android:text="@string/q4_c_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q4_c_text" />
             </RadioGroup>
 
         </android.support.v7.widget.CardView>
@@ -246,26 +246,26 @@
 
             <RadioGroup
                 android:id="@+id/radio_group_q5"
-                android:orientation="vertical"
-                style="@style/RadioGroup">
+                style="@style/RadioGroup"
+                android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/radio_q5_a"
-                    android:text="@string/q5_a_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q5_a_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q5_b"
-                    android:text="@string/q5_b_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q5_b_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q5_c"
-                    android:text="@string/q5_c_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q5_c_text" />
             </RadioGroup>
 
         </android.support.v7.widget.CardView>
@@ -297,28 +297,28 @@
 
             <LinearLayout
                 android:id="@+id/card_checkgroup6"
-                android:orientation="vertical"
-                style="@style/LinearLayoutQuestion">
+                style="@style/LinearLayoutQuestion"
+                android:orientation="vertical">
 
                 <CheckBox
                     android:id="@+id/q6_checkbox_1"
                     style="@style/CheckBox"
-                    android:text="@string/q6_a_text"/>
+                    android:text="@string/q6_a_text" />
 
                 <CheckBox
                     android:id="@+id/q6_checkbox_2"
                     style="@style/CheckBox"
-                    android:text="@string/q6_b_text"/>
+                    android:text="@string/q6_b_text" />
 
                 <CheckBox
                     android:id="@+id/q6_checkbox_3"
                     style="@style/CheckBox"
-                    android:text="@string/q6_c_text"/>
+                    android:text="@string/q6_c_text" />
 
                 <CheckBox
                     android:id="@+id/q6_checkbox_4"
                     style="@style/CheckBox"
-                    android:text="@string/q6_d_text"/>
+                    android:text="@string/q6_d_text" />
 
             </LinearLayout>
 
@@ -351,26 +351,26 @@
 
             <RadioGroup
                 android:id="@+id/radio_group_q7"
-                android:orientation="vertical"
-                style="@style/RadioGroup">
+                style="@style/RadioGroup"
+                android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/radio_q7_a"
-                    android:text="@string/q7_a_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q7_a_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q7_b"
-                    android:text="@string/q7_b_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q7_b_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q7_c"
-                    android:text="@string/q7_c_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q7_c_text" />
             </RadioGroup>
 
         </android.support.v7.widget.CardView>
@@ -402,26 +402,26 @@
 
             <RadioGroup
                 android:id="@+id/radio_group_q8"
-                android:orientation="vertical"
-                style="@style/RadioGroup">
+                style="@style/RadioGroup"
+                android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/radio_q8_a"
-                    android:text="@string/q8_a_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q8_a_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q8_b"
-                    android:text="@string/q8_b_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q8_b_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q8_c"
-                    android:text="@string/q8_c_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q8_c_text" />
             </RadioGroup>
 
         </android.support.v7.widget.CardView>
@@ -453,26 +453,26 @@
 
             <RadioGroup
                 android:id="@+id/radio_group_q9"
-                android:orientation="vertical"
-                style="@style/RadioGroup">
+                style="@style/RadioGroup"
+                android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/radio_q9_a"
-                    android:text="@string/q9_a_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q9_a_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q9_b"
-                    android:text="@string/q9_b_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q9_b_text" />
 
                 <RadioButton
                     android:id="@+id/radio_q9_c"
-                    android:text="@string/q9_c_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="@string/q9_c_text" />
             </RadioGroup>
 
         </android.support.v7.widget.CardView>
@@ -506,7 +506,7 @@
                 android:id="@+id/edit_text_q10"
                 style="@style/EditText"
                 android:hint="@string/q10_hint"
-                android:inputType="text|textCapWords"/>
+                android:inputType="text|textCapWords" />
 
         </android.support.v7.widget.CardView>
 
@@ -518,12 +518,12 @@
             android:layout_marginBottom="@dimen/dim_8dp"
             android:layout_marginLeft="@dimen/dim_32dp"
             android:layout_marginRight="@dimen/dim_32dp"
-            android:gravity="center"
-            android:text="@string/submit_button_text"
-            android:textSize="@dimen/text_size_16sp"
-            android:textColor="@color/background"
             android:background="@drawable/round_shape_button"
-            android:onClick="onSubmit"/>
+            android:gravity="center"
+            android:onClick="onSubmit"
+            android:text="@string/submit_button_text"
+            android:textColor="@color/background"
+            android:textSize="@dimen/text_size_16sp" />
 
         <Button
             android:id="@+id/send_button"
@@ -533,13 +533,13 @@
             android:layout_marginBottom="@dimen/dim_8dp"
             android:layout_marginLeft="@dimen/dim_32dp"
             android:layout_marginRight="@dimen/dim_32dp"
-            android:gravity="center"
-            android:text="@string/send_button_text"
-            android:textSize="@dimen/text_size_16sp"
-            android:textColor="@color/background"
             android:background="@drawable/round_shape_button"
-            android:visibility="gone"
-            android:onClick="onSend"/>
+            android:gravity="center"
+            android:onClick="onSend"
+            android:text="@string/send_button_text"
+            android:textColor="@color/background"
+            android:textSize="@dimen/text_size_16sp"
+            android:visibility="gone" />
 
     </LinearLayout>
 </ScrollView>
