@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_8dp"
+    android:background="@color/background"
+    tools:context="com.gongloroth.quizapp.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dim_16dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="@dimen/dim_8dp"
+            app:cardElevation="@dimen/dim_8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/login_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/blade_runner"
+                    app:riv_corner_radius="@dimen/dim_8dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abril_fatface"
+                        android:gravity="center"
+                        android:shadowColor="#000000"
+                        android:shadowRadius="15"
+                        android:text="@string/app_year"
+                        android:textAllCaps="true"
+                        android:textColor="@color/background"
+                        android:textSize="@dimen/text_size_72sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abril_fatface"
+                        android:gravity="center"
+                        android:shadowColor="#000000"
+                        android:shadowRadius="15"
+                        android:text="@string/app_text"
+                        android:textAllCaps="true"
+                        android:textColor="@color/background"
+                        android:textSize="@dimen/text_size_54sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <EditText
+            android:id="@+id/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dim_40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dim_16dp"
+            android:layout_marginLeft="@dimen/dim_16dp"
+            android:layout_marginRight="@dimen/dim_16dp"
+            android:gravity="center"
+            android:hint="@string/name_hint"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_48dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dim_16dp"
+            android:layout_marginLeft="@dimen/dim_24dp"
+            android:layout_marginRight="@dimen/dim_24dp"
+            android:background="@drawable/round_shape_button"
+            android:gravity="center"
+            android:onClick="onLogin"
+            android:text="@string/start_button_text"
+            android:textColor="@color/background"
+            android:textSize="@dimen/text_size_16sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

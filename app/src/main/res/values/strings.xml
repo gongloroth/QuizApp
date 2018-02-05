@@ -1,15 +1,6 @@
 <resources>
     <string name="app_name">Quiz App</string>
 
-    <string name="empty_answers_msg">%s, please choose an answer for the following questions:</string>
-    <string name="empty_answers_msg1">%s, please choose an answer for the following question:</string>
-    <string name="answer_summary">%s, you answered correctly for %d out of %d questions. </string>
-    <string name="message_score_high">You\'re a star!</string>
-    <string name="message_score_medium">You got stellar smarts!</string>
-    <string name="message_score_low">You\'re a dwarf star!</string>
-    <string name="message_all_answers_correct">Congrats, %s! You\'re a space genius!</string>
-    <string name="type_your_name">Type your name</string>
-
     <string name="question_1_label">Question 1</string>
     <string name="question_2_label">Question 2</string>
     <string name="question_3_label">Question 3</string>
@@ -62,10 +53,14 @@
     <string name="q9_c_text">Kong - Skull Island</string>
     <string name="q10_text">Wonder Woman</string>
 
+    <string name="app_year">2017</string>
+    <string name="app_text">Movie Quiz</string>
     <string name="q10_hint">Enter the title of the movie here</string>
+    <string name="name_hint">Enter your name here</string>
+    <string name="enter_name">Please enter your name first!</string>
 
     <string name="submit_button_text">Submit</string>
     <string name="send_button_text">Send Result</string>
-
+    <string name="start_button_text">Start Quiz</string>
 
 </resources>

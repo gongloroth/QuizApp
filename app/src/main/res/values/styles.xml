@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -31,7 +31,7 @@
         <item name="android:layout_marginLeft">@dimen/dim_8dp</item>
         <item name="android:layout_marginRight">@dimen/dim_8dp</item>
         <item name="android:padding">@dimen/dim_8dp</item>
-        <item name="cardBackgroundColor">@color/colorPrimary</item>
+        <item name="cardBackgroundColor">#7986CB</item>
         <item name="cardCornerRadius">@dimen/dim_8dp</item>
         <item name="cardElevation">@dimen/dim_8dp</item>
     </style>
